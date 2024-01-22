@@ -1,17 +1,21 @@
 {
-  "name": "",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.4.1",
-    "astro": "^4.2.1",
-    "typescript": "^5.3.3"
-  }
+    "name": "manuovera.litui",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro check && astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/check": "^0.4.1",
+        "@astrojs/lit": "^4.0.1",
+        "@webcomponents/template-shadowroot": "^0.2.1",
+        "astro": "^4.2.1",
+        "lit": "^3.1.1",
+        "mjo-litui": "^0.0.1-alpha.0",
+        "typescript": "^5.3.3"
+    }
 }
